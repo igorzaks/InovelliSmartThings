@@ -18,7 +18,7 @@
 
 metadata {
 	definition (name: "Inovelli Bulb Multi-White", namespace: "InovelliUSA", author: "erocm123",
-				ocfDeviceType: "oic.d.light", mnmn: "SmartThings", vid: "generic-rgbw-color-bulb",
+				ocfDeviceType: "oic.d.light", mnmn: "SmartThings", vid: "generic-color-temperature-bulb",
 				runLocally: false, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false) {
 		capability "Switch Level"
 		capability "Color Temperature"
@@ -28,7 +28,7 @@ metadata {
 		capability "Sensor"
 		capability "Health Check"
         
-        fingerprint mfr: "0300", prod: "0006", model: "0001", deviceJoinName: "Inovelli Bulb Multi-White" //US
+        fingerprint mfr: "031E", prod: "0006", model: "0001", deviceJoinName: "Inovelli Bulb Multi-White" //US
         fingerprint deviceId: "0x1101", inClusters: "0x5E,0x85,0x59,0x86,0x72,0x5A,0x26,0x33,0x27,0x70,0x7A,0x73,0x98,0x7A"
         fingerprint deviceId: "0x1101", inClusters: "0x5E,0x98,0x86,0x85,0x59,0x72,0x73,0x26,0x33,0x70,0x27,0x5A,0x7A" // Secure
 	}
